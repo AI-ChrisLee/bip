@@ -1,6 +1,6 @@
 ---
 name: bip
-description: Use this when the day is over and tonight's post is not written. The founder says "/bip", "write today's post", "today's post", or on Sunday "/bip sunday" or "write this week's post". They dump the day in one messy message (what I did, what happened, what I learned, what I would never do again, how it felt) and it writes one build-in-public post in the viral text form (a hook, the turn, a numbered list, a close, "Day N of Execution Squad" last), draws the hand-written notebook page that goes with it through fal (about 4 cents), and stops for their yes. Sunday is the same post about the week, "Week N of Execution Squad" last. It never posts anywhere; the founder puts the text and the drawing on the squad's Threads and shares them out by hand.
+description: Use this when the day is over and tonight's post is not written. The founder says "/bip", "write today's post", "today's post", or on Sunday "/bip sunday" or "write this week's post". They dump the day in one messy message (what I did, what happened, what I learned, what I would never do again, how it felt) and it writes one build-in-public post in the viral text form (a hook, the turn, a numbered list, a close, "Day N of Execution Squad" last), draws the hand-written notebook page that goes with it through fal (about 5 cents), and stops for their yes. Sunday is the same post about the week, "Week N of Execution Squad" last. It never posts anywhere; the founder puts the text and the drawing on the squad's Threads and shares them out by hand.
 ---
 
 # bip
@@ -96,7 +96,7 @@ The founder types one message, any order, any language, messy: what I did, what 
 
 Then write. Never a lecture, never a second question. A thin answer gets a short list, never another question.
 
-**Sunday.** `/bip sunday`, "write this week's post", or a bare `/bip` on a Sunday takes the same message about the week: what shipped, what worked, what did not, the one change for next week. Same sort, same gate, with the question in week form: "What did you actually do this week, and what did it teach you?" Nothing is read from the week's files and nothing is added up; the week is what the founder says it was.
+**Sunday.** `/bip sunday`, "write this week's post", or a bare `/bip` on a Sunday takes the same message about the week: what shipped, what worked, what did not, the one change for next week or the number you are holding for. Same sort, same gate, with the question in week form: "What did you actually do this week, and what did it teach you?" Nothing is read from the week's files and nothing is added up; the week is what the founder says it was.
 
 ## Beat 2 · The post
 
@@ -113,11 +113,15 @@ Single-line paragraphs, a blank line between every one, 900 to 1,500 characters,
 
 The writing rules in `references/post-cage.md` are applied to the draft, never bounced back as questions: nothing the founder did not say (no name, no number, no need), numerals, none of the banned words.
 
-**Sunday.** The same form about the week, `Week N of Execution Squad` last. The hook is the week's result or its lesson; the list is what the week taught; one list item or the close carries the one change for next week, in the founder's words, and that line is what the 90-day plan's Decide column takes on Sunday (g8).
+**Sunday.** The same form about the week, `Week N of Execution Squad` last. The hook is the week's result or its lesson; the list is what the week taught; the close carries the week's Improve line, in the founder's words: its first line is one named change for next week (a change to the system, never to the founder's own hour), or the hold (`holding until <number>, week N of this plan`), and its last line is still the one a stranger would save.
+
+Most weeks the honest line is the hold. A Sunday that names no change is a Sunday working, and a change invented to fill the line is the thing that ruins the read.
+
+The 2 week numbers in that post are not the same number: the signature counts from the hello and runs past 4, the hold's week N is a row of the 4-week plan, 1 to 4. The founder copies the Improve line into the Improve cell of that week's row in the plan (g8).
 
 ## Beat 3 · The drawing
 
-Build the prompt in `references/image-cage.md` off the post: an open lined notebook shot from above, the hook underlined as the title, the post's subject in the centre in yellow marker, one yellow branch per list item (2 to 4 words a label, an arrow into the centre), 2 short plain words beside each branch off that item's own lines, a page number at the bottom. Then one call to fal's `openai/gpt-image-2` (1024x1536, quality medium, png), the key loaded from `.env` first, and the image lands at `squad/posts/YYYY-MM-DD.png`. About 4 cents.
+Build the prompt in `references/image-cage.md` off the post: an open lined notebook shot from above, the hook underlined as the title, the post's subject in the centre in yellow marker, one yellow branch per list item (2 to 4 words a label, an arrow into the centre), 2 short plain words beside each branch off that item's own lines, a page number at the bottom. Then one call to fal's `openai/gpt-image-2` (1024x1536, quality medium, png), the key loaded from `.env` first, and the image lands at `squad/posts/YYYY-MM-DD.png`. About 5 cents.
 
 **No key** (empty after the load): the post prints as it would have, and under it this one line, and nothing stops:
 
@@ -132,12 +136,18 @@ Print the post once, plain, ready to copy. Open the drawing for the founder (mac
 > Post it: aichrislee.com/threads, Accountability, no title, the drawing attached from squad/posts/YYYY-MM-DD.png.
 > Then the X, LinkedIn and Threads buttons under your post. Attach the drawing by hand on each.
 
+On a Sunday, and only then, one more line under those two:
+
+> Then put the week in your plan: say `Put this in week <N>'s Measure: <your 2 numbers> / Improve: <the closing line above>`.
+
+That is the sentence the 4-week plan (g8) takes; nothing here writes the plan.
+
 The share row under the founder's own post on the squad's Threads carries those 3 buttons, and a Copy button beside them. X opens its composer with the hook and the signature in the box, under 280 characters; Threads opens with the post cut at a paragraph break under 480; LinkedIn cannot be prefilled, so that button copies the whole post and opens the composer. Every one of them also puts the whole post on the clipboard. No button carries an image; the drawing goes on by hand every time.
 
 The founder reads and answers with one of 3 things:
 
 - **A changed line.** Reprint only that line, alone. A changed hook or list title is on the page, so the drawing is remade with the new words; that remake is not the "again".
-- **"Again."** The drawing is remade once, the same words, another 4 cents. A typo in the handwriting is the reason to say it. A second "again" gets one line: the words are right, the pen is the pen; post it or change a line.
+- **"Again."** The drawing is remade once, the same words, another 5 cents. A typo in the handwriting is the reason to say it. A second "again" gets one line: the words are right, the pen is the pen; post it or change a line.
 - **The yes.** Save `squad/posts/YYYY-MM-DD.md`: the post verbatim, a blank line, `## The input`, the raw message verbatim. A file already there for this date is overwritten by this yes; nothing else is asked.
 
 Then it is their hand. Nothing else happens here.

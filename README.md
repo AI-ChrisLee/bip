@@ -1,6 +1,6 @@
 # bip: install in 60 seconds
 
-The post writer of an Execution Squad. Every night you dump the day in one messy message: what you did, what happened, what you learned, what you would never do again, how it felt. It writes your build-in-public post in the form the posts that travel are written in (a hook, 2 or 3 lines that turn it, a numbered list of what the day taught, a close, `Day N of Execution Squad` last) and draws the page that goes with it: a photo of an open notebook with your hook underlined at the top, your subject in the middle, and a branch for every item on your list, made through fal for about 4 cents. You read both, change a word, and post them. On Sunday it writes the same post about the week.
+The post writer of an Execution Squad. Every night you dump the day in one messy message: what you did, what happened, what you learned, what you would never do again, how it felt. It writes your build-in-public post in the form the posts that travel are written in (a hook, 2 or 3 lines that turn it, a numbered list of what the day taught, a close, `Day N of Execution Squad` last) and draws the page that goes with it: a photo of an open notebook with your hook underlined at the top, your subject in the middle, and a branch for every item on your list, made through fal for about 5 cents. You read both, change a word, and post them. On Sunday it writes the same post about the week.
 
 ## Install
 
@@ -20,7 +20,7 @@ A day where nothing went out is still a post; the freeze is the post. If your me
 
 ## Sunday
 
-Say **"/bip sunday"** with the week: what shipped, what worked, what did not, the one change for next week. It writes the weekly post, `Week N of Execution Squad` last, and the one change is the line your 90-day plan's Decide column takes. It never adds anything up; the week is what you say it was.
+Say **"/bip sunday"** with the week: what shipped, what worked, what did not, the one change for next week or the number you are holding for. It writes the weekly post, `Week N of Execution Squad` last, and the close carries your Improve line: one named change, or the hold. Most weeks the honest line is the hold, and a week that names no change is a week working. Then put it in the plan: say `Put this in week <N>'s Measure: <your 2 numbers> / Improve: <that line>`. It never adds anything up; the week is what you say it was.
 
 ## What it never does
 

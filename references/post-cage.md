@@ -61,11 +61,15 @@ The same form about the week, `Week N of Execution Squad` last:
 1. the hook: the week's result or its lesson, a number first when the founder gave one;
 2. the re-hook: what happened this week, 2 or 3 lines;
 3. the turn line;
-4. the list: what the week taught, and one item is the one change for next week, in the founder's words;
-5. the close;
+4. the list: what the week taught;
+5. the close: its first line is the week's Improve line, one named change for next week or the hold (`holding until <number>, week N of this plan`), in the founder's words; its last line is still the one a stranger would save;
 6. `Week N of Execution Squad`.
 
-Nothing is added up. The week is what the founder says it was, and a number appears only when the founder gave it. The one-change line is the one the 90-day plan's Decide column takes (g8).
+The 2 week numbers in that post are not the same number. The signature counts from the founder's hello, so it runs past 4; the hold line's week N is a row of the 4-week plan, so it is 1 to 4. Write the hold in the plan's numbers.
+
+Most weeks the honest line is the hold. A Sunday that names no change is a Sunday working, and a change invented to fill the line is the thing that ruins the read. The change form is for a week that earned one, and it is a change to the system, not to the founder's own hour: `Next week the list is florists and print shops only.`
+
+Nothing is added up. The week is what the founder says it was, and a number appears only when the founder gave it. The founder copies the Improve line into the Improve cell of that week's row in the 4-week plan (g8), by saying to their squad: `Put this in week <N>'s Measure: <the 2 numbers> / Improve: <the line>`.
 
 ## 2 worked posts
 
@@ -119,9 +123,9 @@ Day 10 of Execution Squad
 
 **The dump**
 
-> week 3. sent 50 cold emails monday tuesday, 2 replies, both said "not now". thursday I stopped emailing and walked into 6 shops on the street with the deck on my phone, the print place, 2 dentists, a gym, a florist, a barber. the barber laughed at my price, the florist booked a call for tuesday. the deck did the work, I barely talked, she just scrolled it. what didn't work: the cold email, or my cold email, 2 out of 50 and both no. what did: showing up with the thing built. change for next week: mornings are 5 walk-ins, emails only after lunch. also I'm not calling it "an AI system" anymore, I said "your booking page" and she got it instantly. felt like a fraud monday and like a founder thursday.
+> week 3. sent 50 cold emails monday tuesday, 2 replies so far, both said "not now". the last touch on those 50 doesn't go out until next week so I can't call the email good or bad yet. thursday I stopped emailing and walked into 6 shops on the street with the deck on my phone, the print place, 2 dentists, a gym, a florist, a barber. the barber laughed at my price, the florist booked a call for tuesday. the deck did the work, I barely talked, she just scrolled it. what worked: showing up with the thing built. also I'm not calling it "an AI system" anymore, I said "your booking page" and she got it instantly. felt like a fraud monday and like a founder thursday. holding on the email until all 50 finish touch 3, that's week 4.
 
-**The post** (980 characters)
+**The post** (1,017 characters)
 
 ```
 50 emails, 2 replies. 6 walk-ins, 1 call.
@@ -134,31 +138,31 @@ A print shop, 2 dentists, a gym, a florist, a barber.
 
 The florist scrolled the deck, barely heard me talk, and booked a call for Tuesday.
 
-Here is what I am changing:
+Here is what the week taught me:
 
-1. Walk in first
-5 shops every morning. Emails only after lunch.
-
-2. Bring the deck built
+1. Bring the deck built
 I barely talked. She scrolled it and booked. The deck did the work.
 
-3. Drop the word system
+2. Drop the word system
 Nobody in a shop wants "an AI system". I said "your booking page" and she got it instantly.
 
-4. Expect the laugh
+3. Expect the laugh
 The barber laughed at my price. The florist booked at the same price.
 
-5. Stop rewriting the email
-2 out of 50, both no. The street beat the inbox in 1 afternoon.
+4. Walk in
+2 days of typing, 2 replies so far. 1 afternoon on the street, 1 call booked.
 
-Monday I felt like a fraud. Thursday I felt like a founder.
+5. Do not judge it early
+The last touch on those 50 emails goes out next week. Calling the email dead today is a guess.
+
+Holding until all 50 finish touch 3, week 4.
 
 The thing you built sells better than the email about it.
 
 Week 3 of Execution Squad
 ```
 
-The one change for next week is item 1, and that line is what goes in the plan's Decide column on Sunday.
+The close's first line is the week's Improve line. Here it is the hold, because the batch behind it has not finished, and the founder copies that line into the plan's Improve cell on Sunday.
 
 ## The file
 
