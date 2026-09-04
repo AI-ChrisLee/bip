@@ -1,6 +1,6 @@
 # bip: install in 60 seconds
 
-The post writer of an Execution Squad. Every night you type what happened, in one messy message: what you did today, what went well, what did not, what you would change. It writes your build-in-public post on the lesson spine (a hook a stranger stops on, what you did, what broke, what you do about it, the one thing it taught you), sized to the one platform you picked, `Day N of Execution Squad` last. You read it, change a word, and post it. On Sunday it writes the same post about the week.
+The post writer of an Execution Squad. Every night you dump the day in one messy message: what you did, what happened, what you learned, what you would never do again, how it felt. It writes your build-in-public post in the form the posts that travel are written in (a hook, 2 or 3 lines that turn it, a numbered list of what the day taught, a close, `Day N of Execution Squad` last) and draws the page that goes with it: a photo of an open notebook with your hook underlined at the top, your subject in the middle, and a branch for every item on your list, made through fal for about 4 cents. You read both, change a word, and post them. On Sunday it writes the same post about the week.
 
 ## Install
 
@@ -10,16 +10,18 @@ Drop this whole folder into `.claude/skills/` as `bip` (the `references/` folder
 
 The last 5 minutes of the day. Say **"/bip"** or **"write today's post"**, then tell it the day. Messy is fine:
 
-> emailed 8 old clients with the new offer, got one call. she asked what happens in week 2 and I had nothing. tomorrow I write the first 14 days as a list before I send anything. learned: nobody buys a promise.
+> video 10 went up today, 10 in 10 days. 9 did nothing, 40 views. number 7 did 6,000 overnight and I think it's because I said the point in the first sentence. spent 2 hours on the intro of number 3, nobody got there. almost quit after 5. never again a video where the first sentence isn't the point.
 
-It writes the post and shows it. Change any word, say yes, and it saves the post to `squad/posts/`. The first time, it asks 2 questions in one message: what date you posted your hello (that is Day 1), and which platform is yours, LinkedIn, X or Threads. Then post it yourself, on that platform.
+It writes the post, draws the page, opens the drawing, and shows you both. Change any word, say "again" if the handwriting has a typo, say yes, and it saves the post to `squad/posts/` next to the drawing. The first time, it asks 2 things in one message: what date you posted your hello (that is Day 1), and your fal key for the drawings (free account at fal.ai, the key at fal.ai/dashboard/keys). Skip the key and the post still comes; paste it any night and the drawings start.
 
-A day where nothing went out is still a post; the freeze is the post. If your message has nothing that happened in it, it asks one question, what you actually did and what it taught you, and writes off your answer.
+Then post it: the text and the drawing on aichrislee.com/threads, in Accountability, no title. Under your post are 3 share buttons, X, LinkedIn and Threads, and a Copy button beside them. X opens with your hook and your signature in the box, Threads with the post cut to fit; LinkedIn copies it and opens the composer. Attach the drawing by hand on each.
+
+A day where nothing went out is still a post; the freeze is the post. If your message has nothing that happened in it, it asks one question, what you actually did and what it taught you, and writes off your answer. It never asks you for a count.
 
 ## Sunday
 
-Say **"/bip sunday"** with the week: what shipped, what worked, what did not, the one change for next week. It writes the weekly post, `Week N of Execution Squad` last. It never adds anything up; the week is what you say it was.
+Say **"/bip sunday"** with the week: what shipped, what worked, what did not, the one change for next week. It writes the weekly post, `Week N of Execution Squad` last, and the one change is the line your 90-day plan's Decide column takes. It never adds anything up; the week is what you say it was.
 
 ## What it never does
 
-It never posts, never sends, never opens the platform for you. It never puts in a name, a number or a need you did not say. Nothing gets written anywhere except `squad/posts/` and 2 rows in your roots file.
+It never posts, never sends, never opens a platform for you. It never puts in a name, a number or a need you did not say. Nothing gets written anywhere except `squad/posts/` (the post and the drawing), 1 row in your roots file, and your fal key in `.env`.

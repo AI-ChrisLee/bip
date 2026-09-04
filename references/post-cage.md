@@ -1,49 +1,50 @@
 # The post cage
 
-The 6 beats, the hook, the platform lengths, the writing rules, the one gate, the Sunday shape, and 3 worked posts. `SKILL.md` names this file at beat 0; a missing copy stops the run.
+The form, the hook, the list, the close, the writing rules, the one gate, the Sunday shape, and 2 worked posts. `SKILL.md` names this file at beat 0; a missing copy stops the run.
 
-## The 6 beats
+## The form
 
-| # | Beat | What it is | Length |
+| # | Part | What it is | Size |
 |---|---|---|---|
-| 1 | The hook | the day's lesson or the day's event, written for a stranger | under about 12 words |
-| 2 | The credibility line | what I did today, concrete | one line |
-| 3 | The problem | what did not work, or what was hard | one or two lines |
-| 4 | The move | what I did about it, or what I change tomorrow | one or two lines |
-| 5 | The insight | the one thing it taught, the line a stranger would save | one line |
+| 1 | The hook | a claim or an observation from the day, written for a stranger | 1 line, under about 50 characters |
+| 2 | The re-hook | the lines that turn the claim: what happened, what it cost, how it felt | 2 or 3 one-line paragraphs |
+| 3 | The turn line | the door into the list, ending in a colon | 1 line: "Here is what I learned:" or "Here is exactly what that looks like:" |
+| 4 | The list | what the day taught, numbered | 3 to 10 items, each a short title line and 1 or 2 lines under 20 words |
+| 5 | The close | the landing | 2 one-line paragraphs, the last one a line a stranger would save |
 | 6 | The signature | `Day N of Execution Squad` | last, always |
 
-A blank line between beats. No labels on the lines: the shape is the order, and a reader never sees the word "hook".
+Every paragraph is one line. A blank line between every one. 900 to 1,500 characters in all. No labels on the lines: the shape is the order, and a reader never sees the word "hook".
 
-This is the lesson's spine: hook, credibility, problem, the move, the insight, close. A post with the beats in this order reads like a lesson from someone doing the work. The same facts in another order read like a diary.
+This is the form the posts that travel are written in. A claim, a turn, a list a reader can scan in 20 seconds, a line they want to keep. The same facts as prose read like a diary.
 
 ## The hook, line 1
 
-- The lesson or the event, not the count of things. "The only reply today was a question I could not answer" beats "Sent 8 emails today".
-- Under about 12 words. On LinkedIn the first 200 characters are the whole post for most readers, so line 1 plus the blank line under it has to be the post.
-- The shapes that stop a stranger, strongest first: the first beat of a story ("She asked what happens in week 2 and I had nothing"); a result with a turn the reader did not expect ("I got 10 clients and the work got worse"); a question, only when the post answers it.
+- The first 200 characters carry the post. LinkedIn cuts there on a desktop and sooner on a phone, and 8 in 10 of the posts that travel put the hook inside them. So line 1 and the first re-hook line are the whole post for most readers.
+- A number first when the dump has one. "10 videos in 10 days. 9 of them did nothing." beats "I finished my tenth video today." A number the founder did not say never appears.
+- Under about 50 characters. A claim ("Most of my emails were never going to work.") or an observation ("The only reply today was a question I could not answer.").
 - Never a counter first ("Day 12"), never a plan ("tomorrow I will"), never a goal ("my goal is 100 clients"). The post carries what happened, not what will.
-- A feeling can be the hook on a day when the feeling is the event. "I froze at the ask today" is a post.
+- A feeling can be the hook on a day when the feeling is the event. "I almost quit at video 5." is a post.
 
-## The platform lengths
+## The list
 
-| Platform | Length | Beats |
-|---|---|---|
-| LinkedIn | 120 to 250 words | all 6. The cut sits at about 200 characters on a desktop and sooner on a phone; everything under the cut is read only by the people the hook earned |
-| Threads | under 500 characters | all 6, one line each |
-| X | under 280 characters | 3: the hook, the insight, the signature. A founder who said their account is Premium gets the LinkedIn length and all 6 beats |
+- 3 to 10 items, and the dump sets the count: a thin day is 3, a big day is more. The rule above the range is that no item is ever padded in to reach a number, so a dump that carries 2 things gets 2 items and the post still stands.
+- Each item: a title line of 2 to 4 words (those titles are the drawing's branches), then 1 or 2 lines under 20 words each. The lines say what the founder did or saw, concrete, in their words.
+- The items are what the day taught, in the order the day taught them. What the founder would never do again is the last item or the close, never buried in the middle.
+- Numerals: `1.` `2.` `3.`, never "first, second".
 
-Threads is Meta's Threads, the founder's own account. The squad's page at aichrislee.com/threads is not this platform.
+## The close
+
+Two one-line paragraphs. The first lands the story (the result, the feeling, the thing they did this morning). The second is the line a stranger would save: short, declarative, no hedge. It is the founder's own conclusion from the dump, sharpened, never a quote from someone else and never a line the dump does not support.
 
 ## The writing rules (applied to the draft, never asked)
 
 - Every fact comes from tonight's message. No name, no number, no need the founder did not say. A reply the founder quotes stays verbatim.
 - Numbers only when the founder gave them, and then as numerals: `8 emails`, never "eight emails". No count is required; a day with no number in it is a full post.
-- Short lines. One idea per line. A blank line between beats.
+- Sentences under 20 words. One idea per line. A blank line between every paragraph.
 - The founder's voice: their words, their rhythm off the voice sample, blunt or warm as the `talk to me` row says. The language of tonight's message.
-- No link. No hashtag. No emoji unless the voice sample has them.
+- No link. No hashtag. No emoji. No bold, no headings, no markdown of any kind: the post is pasted into a composer as plain text.
 - The signature is the last line, always.
-- None of these words, ever: delve, tapestry, multifaceted, landscape, robust, testament, pivotal, underscore, encompass, realm, embark, interplay, intricate, nuance, nuanced, garner, paramount, commendable, meticulous, showcase, symphony, beacon, indelible, bustling, vibrant, enigma, unwavering, nestled, annals, bespoke, elevate, unlock, seamless, journey, game-changer.
+- None of these words, ever: delve, tapestry, multifaceted, landscape, robust, testament, pivotal, underscore, encompass, realm, embark, interplay, intricate, nuance, nuanced, garner, paramount, commendable, meticulous, showcase, symphony, beacon, indelible, bustling, vibrant, enigma, unwavering, nestled, annals, bespoke, elevate, unlock, seamless, harness, navigate, foster, streamline, transformative, game-changer. Never "verdict", "invoice", "machine".
 
 ## The one gate
 
@@ -55,88 +56,109 @@ After the answer, write. Never a lecture, never a second question. On Sunday the
 
 ## Sunday
 
-The same 6 beats about the week, `Week N of Execution Squad` last:
+The same form about the week, `Week N of Execution Squad` last:
 
-1. the hook: the week's lesson;
-2. the credibility line: what shipped this week;
-3. the problem: what did not work;
-4. the move: the one change for next week, in the founder's words;
-5. the insight: the one thing the week taught;
+1. the hook: the week's result or its lesson, a number first when the founder gave one;
+2. the re-hook: what happened this week, 2 or 3 lines;
+3. the turn line;
+4. the list: what the week taught, and one item is the one change for next week, in the founder's words;
+5. the close;
 6. `Week N of Execution Squad`.
 
-Nothing is added up. The week is what the founder says it was, and a number appears only when the founder gave it. The move line is the one the 90-day plan's Decide column takes.
+Nothing is added up. The week is what the founder says it was, and a number appears only when the founder gave it. The one-change line is the one the 90-day plan's Decide column takes (g8).
 
-## 3 worked posts
+## 2 worked posts
 
-One message, 3 platforms. An illustration, not a member: no name, no company, nothing real. Notice that every fact in every post is in the message, and that the shorter posts drop beats rather than shorten the hook.
+Two made-up dumps, no member behind them: no name, no company, nothing real. Notice that every fact in each post is in its dump, that the hook opens on a number both times because both dumps had one, and that the list titles are short enough to hand-write.
 
-**The message**
+### A weekday
 
-> emailed 8 old clients this morning with the new offer. one wrote back and we got on a call at 3. went fine for about 10 min then she asked what happens in week 2 and I had a price and a promise and nothing in between. talked for a minute, said nothing. she said she'd think about it. I've said that myself, I know what it means. tomorrow I write the first 14 days as a dated list, day 1 day 3 day 7 what she gets, before I send anything else. learned: nobody buys a promise. they buy what happens the tuesday after they pay.
+**The dump**
 
-**LinkedIn** (120 to 250 words, all 6 beats)
+> ok so today video 10 went up. that's 10 in 10 days. 9 of them did nothing, like 40 views, my mom. number 7 did 6,000 overnight and I still don't fully know why. what I think: 7 was the only one where I said the point in the first sentence. the rest I spent a minute saying hi. also 7 was one idea, the rest were 3 or 4 things. and I showed my screen the whole time instead of my face. I hate that I spent 2 hours on the intro of number 3, nobody got there. honestly I almost quit after 5. never again: never posting a video where the first sentence isn't the point. felt like garbage all week then this morning I refreshed 4 times to make sure it was real.
 
-```
-The only reply today was a question I could not answer.
-
-I emailed 8 old clients this morning with the new offer. One wrote back, and by 3 we were on a call.
-
-It went fine for about 10 minutes. Then she asked what happens in week 2. I had a price and I had a promise, and there was nothing between them. I talked for a minute and said nothing. She said she would think about it. I have said that myself, and I know what it means.
-
-Tomorrow I write the first 14 days as a dated list. Day 1, day 3, day 7, what she gets on each one. It goes out before the next email does.
-
-Nobody buys a promise. They buy what happens the Tuesday after they pay.
-
-Day 12 of Execution Squad
-```
-
-**Threads** (under 500 characters, all 6 beats, one line each)
+**The post** (940 characters)
 
 ```
-The only reply today was a question I could not answer.
+10 videos in 10 days. 9 of them did nothing.
 
-Emailed 8 old clients with the new offer. One call came out of it.
+40 views each. My mom, mostly.
 
-She asked what happens in week 2. I had a price and a promise and nothing in between.
+Video 7 did 6,000 overnight, and I still do not fully know why.
 
-Tomorrow I write the first 14 days as a dated list, before I send anything else.
+What I do know is that I almost quit at video 5.
 
-Nobody buys a promise. They buy what happens the Tuesday after they pay.
+Here is what the 1 that worked did differently:
 
-Day 12 of Execution Squad
+1. Hook first
+The point was the first sentence. The other 9 spent a minute saying hi.
+
+2. One idea
+Video 7 said 1 thing. The rest tried to say 3 or 4 things at once.
+
+3. Show the screen
+The screen was on the whole time, not my face.
+
+4. Cut the intro
+I spent 2 hours on the intro of video 3. Nobody got that far.
+
+5. Post anyway
+9 flops taught me what the 1 hit needed. None of that shows up if you stop at 5.
+
+6. Stop guessing why
+I still cannot say why 7 worked. I can say what it did, and I can do that again.
+
+I felt like garbage all week. This morning I refreshed 4 times to make sure 6,000 was real.
+
+Never again a video where the first sentence is not the point.
+
+Day 10 of Execution Squad
 ```
 
-**X** (under 280 characters: the hook, the insight, the signature)
+### A Sunday
+
+**The dump**
+
+> week 3. sent 50 cold emails monday tuesday, 2 replies, both said "not now". thursday I stopped emailing and walked into 6 shops on the street with the deck on my phone, the print place, 2 dentists, a gym, a florist, a barber. the barber laughed at my price, the florist booked a call for tuesday. the deck did the work, I barely talked, she just scrolled it. what didn't work: the cold email, or my cold email, 2 out of 50 and both no. what did: showing up with the thing built. change for next week: mornings are 5 walk-ins, emails only after lunch. also I'm not calling it "an AI system" anymore, I said "your booking page" and she got it instantly. felt like a fraud monday and like a founder thursday.
+
+**The post** (980 characters)
 
 ```
-The only reply today was a question I could not answer.
+50 emails, 2 replies. 6 walk-ins, 1 call.
 
-Nobody buys a promise. They buy what happens the Tuesday after they pay.
+I sent 50 cold emails on Monday and Tuesday. Both replies said "not now".
 
-Day 12 of Execution Squad
+On Thursday I stopped emailing and walked into 6 shops with the deck on my phone.
+
+A print shop, 2 dentists, a gym, a florist, a barber.
+
+The florist scrolled the deck, barely heard me talk, and booked a call for Tuesday.
+
+Here is what I am changing:
+
+1. Walk in first
+5 shops every morning. Emails only after lunch.
+
+2. Bring the deck built
+I barely talked. She scrolled it and booked. The deck did the work.
+
+3. Drop the word system
+Nobody in a shop wants "an AI system". I said "your booking page" and she got it instantly.
+
+4. Expect the laugh
+The barber laughed at my price. The florist booked at the same price.
+
+5. Stop rewriting the email
+2 out of 50, both no. The street beat the inbox in 1 afternoon.
+
+Monday I felt like a fraud. Thursday I felt like a founder.
+
+The thing you built sells better than the email about it.
+
+Week 3 of Execution Squad
 ```
 
-**Sunday, worked once** (LinkedIn, the week)
-
-The message:
-
-> this week: 31 emails out, 3 calls, no money yet. all 3 calls died at the price. I said the number then kept talking, by the end I was explaining the price to nobody. one guy said "let me think about it" while I was still talking. what worked: the first line. I named the booking button on their site that goes nowhere and people answered that one. 3 calls from 31 emails is more than I got all of last month. change for next week: say the number and stop talking, count to 5 if I have to. the silence after the number isn't a no, it's them deciding.
-
-The post:
-
-```
-I talked 3 people out of buying this week.
-
-31 emails went out, 3 of them turned into calls, and no money came in yet. That is more calls than I got in all of last month. The first line worked: I named the booking button on their site that goes nowhere, and people answered that one.
-
-All 3 calls died at the price. I said the number, then kept talking, and by the end I was explaining the price to nobody. One of them said "let me think about it" while I was still talking.
-
-Next week I say the number and stop talking. I count to 5 if I have to.
-
-The silence after the number is not a no. It is the person deciding.
-
-Week 2 of Execution Squad
-```
+The one change for next week is item 1, and that line is what goes in the plan's Decide column on Sunday.
 
 ## The file
 
@@ -149,6 +171,4 @@ Week 2 of Execution Squad
 <the founder's raw message, verbatim>
 ```
 
-The post comes first so it copies clean. Its signature is the line just above `## The input`, and that is the line every reader checks for `Day` or `Week`.
-
-A file that already holds one of the two posts keeps both. The week's post and its input go on top, a `---` line under them, then the day's post and its input, unchanged.
+The post comes first so it copies clean. Its signature is the last non-empty line before `## The input`, and that is the line every reader checks for `Day` or `Week`. The drawing sits next to it as `squad/posts/YYYY-MM-DD.png`.
