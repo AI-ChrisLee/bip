@@ -1,6 +1,6 @@
 # The image cage
 
-The drawing that goes with every post: what is on the page, the prompt, the fal call, where the file lands, the "again" rule, the no-key line, the cost, and one worked prompt. `SKILL.md` names this file at beat 0; a missing copy stops the run.
+The drawing that goes with every post: what is on the page, the prompt, the fal call, where the file lands, and one worked prompt. `SKILL.md` names this file at beat 0; a missing copy stops the run.
 
 ## What is on the page
 
@@ -32,10 +32,10 @@ The label list and the satellite clauses grow and shrink with the list: 3 items,
 
 ## The call
 
-The endpoint is fal's `openai/gpt-image-2`. The key is `FAL_KEY` in the company folder's `.env`, the same line the Proven Package reads (c2), loaded first because the terminal does not read `.env` on its own. The prompt goes in as JSON on standard input, so nothing is written to disk except the image:
+The endpoint is fal's `openai/gpt-image-2`. The key is `FAL_KEY` in the company folder's `.env`, loaded first because the terminal does not read `.env` on its own. The prompt goes in as JSON on standard input, so nothing is written to disk except the image:
 
 ```
-[ -f .env ] && { set -a; . ./.env; set +a; }
+FAL_KEY=$(grep -m1 '^FAL_KEY=' .env 2>/dev/null | cut -d= -f2-)
 curl -s -X POST https://fal.run/openai/gpt-image-2 \
   -H "Authorization: Key $FAL_KEY" -H "Content-Type: application/json" \
   --data-binary @- <<'JSON'
@@ -53,34 +53,16 @@ JSON
 curl -s -o squad/posts/YYYY-MM-DD.png "<images[0].url>"
 ```
 
-(`grep -o '"url":"[^"]*"' | head -1 | cut -d'"' -f4` pulls the url out of the response without any other tool.) A response with no `images` entry, or a status other than 200, is tried once more; a second miss prints one line, "the drawing did not come back tonight", and the run carries on to the yes. A `401` is a bad key: say so in one line, and the founder pastes a fresh one when they want to.
+(`grep -o '"url":"[^"]*"' | head -1 | cut -d'"' -f4` pulls the url out of the response without any other tool.) A response with no `images` entry, or a status other than 200, is tried once more; a second miss prints one line, "the drawing did not come back tonight", and the run carries on to the yes. A `401` is a bad key; under the post, one line: "That fal key came back 401." The run carries on to the yes.
 
 ## The file
 
 `squad/posts/YYYY-MM-DD.png`, 1024x1536, next to the post's `.md`. One drawing per date. A remake overwrites it.
-
-## Again
-
-"Again" from the founder at beat 4 remakes the drawing once with the same words and the same prompt; the pen draws differently each time, and a typo in the handwriting is the reason to say it. A second "again" gets one line: the words are right, the pen is the pen; post it or change a line. A changed hook or list title changes the page's words, so that remake is a new prompt, not the "again".
-
-## No key
-
-`FAL_KEY` empty after the load: the post prints as it would have, then this one line, and nothing stops:
-
-> No drawing tonight. Paste your fal key for the image (fal.ai/dashboard/keys) and I make it.
-
-A key pasted after that line is written to `.env` as `FAL_KEY=<key>` (once, never printed back) and the drawing is made in the same run, off the post as it stands.
-
-## Cost
-
-About 5 cents a drawing (1024x1536 at quality medium on fal; fal's published square at the same quality is $0.053, and a portrait page is not cheaper than a square). "Again" is another 5 cents. A month of nightly posts is under $2.
 
 ## The worked prompt
 
 For the post G3 shows. Its hook is "The video I almost did not post did 5x the other 9.", so that line is the title, word for word. Its subject in the founder's own words, from the line under the hook, is "My first 10 videos", so that is the centre. Its 5 list titles are Hook first, One idea, Show the screen, Cut the intro, Post anyway, and every satellite below is lifted out of that item's own two lines, never invented:
 
 ```
-A photo taken from directly above of an open lined notebook lying on a plain dark wooden desk, in soft natural daylight. The page is filled in by hand with a black fine-tip pen in casual, legible handwriting, with a yellow highlighter marker used on some words. At the top of the page, written as a title and underlined once with a single hand-drawn line: "The video I almost did not post did 5x the other 9.". In the middle of the page, one short phrase highlighted in yellow marker: "My first 10 videos". Five hand-drawn arrows go outward from that centre phrase to five labels around it, each label highlighted in yellow marker: "Hook first", "One idea", "Show the screen", "Cut the intro", "Post anyway". Under each label, two short lines of small plain handwriting with no highlight: under "Hook first" it reads "first line" then "no hello"; under "One idea" it reads "3 things" then "taught 1"; under "Show the screen" it reads "real files" then "not slides"; under "Cut the intro" it reads "20 seconds" then "nobody waited"; under "Post anyway" it reads "sat in doubt" then "until midnight". At the bottom centre of the page, a small handwritten page number: "1". Nothing else in the frame: no logo, no person, no hands, no other objects. Every word spelled exactly as written here.
+A photo taken from directly above of an open lined notebook lying on a plain dark wooden desk, in soft natural daylight. The page is filled in by hand with a black fine-tip pen in casual, legible handwriting, with a yellow highlighter marker used on some words. At the top of the page, written as a title and underlined once with a single hand-drawn line: "The video I almost did not post did 5x the other 9.". In the middle of the page, one short phrase highlighted in yellow marker: "My first 10 videos". 5 hand-drawn arrows go outward from that centre phrase to 5 labels around it, each label highlighted in yellow marker: "Hook first", "One idea", "Show the screen", "Cut the intro", "Post anyway". Under each label, two short lines of small plain handwriting with no highlight: under "Hook first" it reads "first line" then "no hello"; under "One idea" it reads "3 things" then "taught 1"; under "Show the screen" it reads "real files" then "not slides"; under "Cut the intro" it reads "20 seconds" then "nobody waited"; under "Post anyway" it reads "sat in doubt" then "until midnight". At the bottom centre of the page, a small handwritten page number: "1". Nothing else in the frame: no logo, no person, no hands, no other objects. Every word spelled exactly as written here.
 ```
-
-A prompt at this density was rendered on 2026-09-04 through the call above: every word came back spelled right, the five labels sat highlighted around the centre with an arrow into each, the satellites stayed small and plain, and the page number sat at the bottom. That render is where the 2 to 4 word limit comes from. G3's example drawing is rendered from this prompt and from no other, so a change to that lesson's example post is a new render, never a hand edit.

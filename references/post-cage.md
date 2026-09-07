@@ -15,7 +15,7 @@ The form, the hook, the list, the close, the writing rules, the one gate, the Su
 
 Every paragraph is one line. A blank line between every one. 900 to 1,500 characters in all. No labels on the lines: the shape is the order, and a reader never sees the word "hook".
 
-This is the form the posts that travel are written in. A claim, a turn, a list a reader can scan in 20 seconds, a line they want to keep. The same facts as prose read like a diary.
+This is the form the posts that travel are written in. A claim, a turn, a list a reader can scan in 20 seconds, a line they want to keep.
 
 ## The hook, line 1
 
@@ -62,14 +62,12 @@ The same form about the week, `Week N of Execution Squad` last:
 2. the re-hook: what happened this week, 2 or 3 lines;
 3. the turn line;
 4. the list: what the week taught;
-5. the close: its first line is the week's Improve line, one named change for next week or the hold (`holding until <number>, week N of this plan`), in the founder's words; its last line is still the one a stranger would save;
+5. the close: its first line is the week's Improve line, one named change for next week or the hold (`holding until <number>`), in the founder's words; its last line is still the one a stranger would save;
 6. `Week N of Execution Squad`.
-
-The 2 week numbers in that post are not the same number. The signature counts from the founder's hello, so it runs past 4; the hold line's week N is a row of the 4-week plan, so it is 1 to 4. Write the hold in the plan's numbers.
 
 Most weeks the honest line is the hold. A Sunday that names no change is a Sunday working, and a change invented to fill the line is the thing that ruins the read. The change form is for a week that earned one, and it is a change to the system, not to the founder's own hour: `Next week the list is florists and print shops only.`
 
-Nothing is added up. The week is what the founder says it was, and a number appears only when the founder gave it. The founder copies the Improve line into the Improve cell of that week's row in the 4-week plan (g8), by saying to their squad: `Put this in week <N>'s Measure: <the 2 numbers> / Improve: <the line>`.
+Nothing is added up. The week is what the founder says it was, and a number appears only when the founder gave it. The founder copies the Improve line into the Improve cell of that week's row in the 4-week plan (g8) with the sentence beat 4 prints under a Sunday post.
 
 ## 2 worked posts
 
@@ -155,24 +153,13 @@ The barber laughed at my price. The florist booked at the same price.
 5. Do not judge it early
 The last touch on those 50 emails goes out next week. Calling the email dead today is a guess.
 
-Holding until all 50 finish touch 3, week 4.
+Holding until all 50 finish touch 3.
 
 The thing you built sells better than the email about it.
 
 Week 3 of Execution Squad
 ```
 
-The close's first line is the week's Improve line. Here it is the hold, because the batch behind it has not finished, and the founder copies that line into the plan's Improve cell on Sunday.
-
 ## The file
 
-`squad/posts/YYYY-MM-DD.md`, saved on the yes:
-
-```
-<the post, verbatim>
-
-## The input
-<the founder's raw message, verbatim>
-```
-
-The post comes first so it copies clean. Its signature is the last non-empty line before `## The input`, and that is the line every reader checks for `Day` or `Week`. The drawing sits next to it as `squad/posts/YYYY-MM-DD.png`.
+`squad/posts/YYYY-MM-DD.md`, saved on the yes: the post, verbatim, and nothing else, so it copies clean. The drawing sits next to it as `squad/posts/YYYY-MM-DD.png`.
