@@ -1,4 +1,8 @@
-# bip: install in 60 seconds
+# bip
+
+This skill is a base. Once you have done it your way, tell your squad "update the skill to do it like this."
+
+One messy message about your day goes in. Tonight's post comes out, with the notebook page drawn from it. Your hand posts both.
 
 Open Claude Code in your company folder and paste: **"Install this skill:
 https://github.com/AI-ChrisLee/bip. Clone the whole folder into .claude/skills as bip, without
